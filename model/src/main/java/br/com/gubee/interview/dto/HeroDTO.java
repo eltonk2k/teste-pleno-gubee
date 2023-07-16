@@ -12,10 +12,7 @@ public class HeroDTO {
 
     private UUID id;
     private String name;
-
-    @NotBlank(message="Preenchimento Obrigatório")
     private String race;
-
     private boolean enabled = true;
     private LocalDateTime created_at;
     private LocalDateTime updated_at;
