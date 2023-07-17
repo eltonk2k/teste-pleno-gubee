@@ -1,20 +1,27 @@
 package br.com.gubee.interview.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.time.LocalDateTime;
+
 import java.util.UUID;
 
-@Data
+@NoArgsConstructor
+@Getter
+@Setter
 public class HeroDTO {
 
     private UUID id;
     private String name;
     private String race;
-    private boolean enabled = true;
-    private LocalDateTime created_at;
-    private LocalDateTime updated_at;
+    private boolean enabled;
+
+    private Short strength;
+    private Short agility;
+    private Short dexterity;
+    private Short intelligence;
+
 
 }

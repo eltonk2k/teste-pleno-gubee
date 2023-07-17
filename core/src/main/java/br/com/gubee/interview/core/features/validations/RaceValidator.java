@@ -1,4 +1,4 @@
-package br.com.gubee.interview.core.validations;
+package br.com.gubee.interview.core.features.validations;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

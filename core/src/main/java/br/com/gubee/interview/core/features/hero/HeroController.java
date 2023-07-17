@@ -1,7 +1,7 @@
 package br.com.gubee.interview.core.features.hero;
 
 
-import br.com.gubee.interview.core.services.HeroService;
+import br.com.gubee.interview.core.features.services.HeroService;
 import br.com.gubee.interview.dto.HeroDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -40,7 +40,7 @@ public class HeroController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable UUID id) {
-        heroService.delete(id);
+        heroService.deleteById(id);
         return ResponseEntity.noContent().build();
     }
 

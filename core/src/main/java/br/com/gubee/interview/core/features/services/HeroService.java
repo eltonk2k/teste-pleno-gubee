@@ -1,4 +1,4 @@
-package br.com.gubee.interview.core.services;
+package br.com.gubee.interview.core.features.services;
 
 import br.com.gubee.interview.dto.HeroDTO;
 
@@ -8,10 +8,12 @@ public interface HeroService {
 
     HeroDTO findById(UUID id);
 
+    HeroDTO findByName(String name);
+
     HeroDTO save(HeroDTO heroDTO);
 
     HeroDTO update(UUID id, HeroDTO heroDTO);
 
-    void delete(UUID id);
+    void deleteById(UUID id);
 
 }

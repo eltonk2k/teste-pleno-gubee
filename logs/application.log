@@ -1,26 +1,24 @@
-[INFO ] [2023-07-12T18:29:07,399] [background-preinit] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-12T18:29:07,424] [main] [Application] Starting Application using Java 17.0.7 with PID 12364 (D:\Documentos\testes\teste-pleno-gubee\core\target\classes started by elielton in D:\Documentos\testes\teste-pleno-gubee) 
-[INFO ] [2023-07-12T18:29:07,427] [main] [Application] No active profile set, falling back to 1 default profile: "default" 
-[INFO ] [2023-07-12T18:29:07,831] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
-[INFO ] [2023-07-12T18:29:07,831] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JDBC repositories in DEFAULT mode. 
-[INFO ] [2023-07-12T18:29:07,978] [main] [RepositoryConfigurationExtensionSupport] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface br.com.gubee.interview.core.repository.HeroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table. 
-[INFO ] [2023-07-12T18:29:07,979] [main] [RepositoryConfigurationExtensionSupport] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface br.com.gubee.interview.core.repository.PowerStatsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table. 
-[INFO ] [2023-07-12T18:29:07,980] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 28 ms. Found 0 JDBC repository interfaces. 
-[INFO ] [2023-07-12T18:29:07,984] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
-[INFO ] [2023-07-12T18:29:07,985] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
-[INFO ] [2023-07-12T18:29:08,006] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces. 
-[INFO ] [2023-07-12T18:29:08,336] [main] [TomcatWebServer] Tomcat initialized with port(s): 8080 (http) 
-[INFO ] [2023-07-12T18:29:08,344] [main] [Http11NioProtocol] The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c] 
-[INFO ] [2023-07-12T18:29:08,344] [main] [Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"] 
-[INFO ] [2023-07-12T18:29:08,345] [main] [StandardService] Starting service [Tomcat] 
-[INFO ] [2023-07-12T18:29:08,345] [main] [StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.8] 
-[INFO ] [2023-07-12T18:29:08,405] [main] [[/]] Initializing Spring embedded WebApplicationContext 
-[INFO ] [2023-07-12T18:29:08,406] [main] [ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 951 ms 
-[INFO ] [2023-07-12T18:29:08,503] [main] [VersionPrinter] Flyway Community Edition 9.16.3 by Redgate 
-[INFO ] [2023-07-12T18:29:08,503] [main] [VersionPrinter] See release notes here: https://rd.gt/416ObMi 
-[INFO ] [2023-07-12T18:29:08,504] [main] [VersionPrinter]  
-[INFO ] [2023-07-12T18:29:08,517] [main] [HikariDataSource] HikariPool-1 - Starting... 
-[ERROR] [2023-07-12T18:29:09,636] [main] [HikariPool] HikariPool-1 - Exception during pool initialization. 
+[INFO ] [2023-07-17T00:50:12,566] [background-preinit] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-17T00:50:12,600] [main] [Application] Starting Application using Java 17.0.7 with PID 1868 (D:\Documentos\testes\teste-pleno-gubee\core\target\classes started by elielton in D:\Documentos\testes\teste-pleno-gubee) 
+[INFO ] [2023-07-17T00:50:12,603] [main] [Application] No active profile set, falling back to 1 default profile: "default" 
+[INFO ] [2023-07-17T00:50:13,118] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
+[INFO ] [2023-07-17T00:50:13,119] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JDBC repositories in DEFAULT mode. 
+[INFO ] [2023-07-17T00:50:13,143] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces. 
+[INFO ] [2023-07-17T00:50:13,149] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
+[INFO ] [2023-07-17T00:50:13,150] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO ] [2023-07-17T00:50:13,153] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces. 
+[INFO ] [2023-07-17T00:50:13,494] [main] [TomcatWebServer] Tomcat initialized with port(s): 8080 (http) 
+[INFO ] [2023-07-17T00:50:13,501] [main] [Http11NioProtocol] The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c] 
+[INFO ] [2023-07-17T00:50:13,501] [main] [Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO ] [2023-07-17T00:50:13,502] [main] [StandardService] Starting service [Tomcat] 
+[INFO ] [2023-07-17T00:50:13,503] [main] [StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.8] 
+[INFO ] [2023-07-17T00:50:13,567] [main] [[/]] Initializing Spring embedded WebApplicationContext 
+[INFO ] [2023-07-17T00:50:13,567] [main] [ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 931 ms 
+[INFO ] [2023-07-17T00:50:13,682] [main] [VersionPrinter] Flyway Community Edition 9.16.3 by Redgate 
+[INFO ] [2023-07-17T00:50:13,682] [main] [VersionPrinter] See release notes here: https://rd.gt/416ObMi 
+[INFO ] [2023-07-17T00:50:13,682] [main] [VersionPrinter]  
+[INFO ] [2023-07-17T00:50:13,709] [main] [HikariDataSource] HikariPool-1 - Starting... 
+[ERROR] [2023-07-17T00:50:14,829] [main] [HikariPool] HikariPool-1 - Exception during pool initialization. 
 org.postgresql.util.PSQLException: FATAL: password authentication failed for user "gubee"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:693) ~[postgresql-42.6.0.jar:42.6.0]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:203) ~[postgresql-42.6.0.jar:42.6.0]
@@ -60,18 +58,18 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
-	at br.com.gubee.interview.core.Application.main(Application.java:12) [classes/:?]
-[WARN ] [2023-07-12T18:29:09,850] [main] [AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
+	at br.com.gubee.interview.core.Application.main(Application.java:13) [classes/:?]
+[WARN ] [2023-07-17T00:50:14,904] [main] [AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
 -------------------------------------------------------------------------------------------------
 SQL State  : 28P01
 Error Code : 0
 Message    : FATAL: password authentication failed for user "gubee"
  
-[INFO ] [2023-07-12T18:29:09,854] [main] [StandardService] Stopping service [Tomcat] 
-[INFO ] [2023-07-12T18:29:09,868] [main] [ConditionEvaluationReportLogger] 
+[INFO ] [2023-07-17T00:50:14,908] [main] [StandardService] Stopping service [Tomcat] 
+[INFO ] [2023-07-17T00:50:14,916] [main] [ConditionEvaluationReportLogger] 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
-[ERROR] [2023-07-12T18:29:09,881] [main] [SpringApplication] Application run failed 
+[ERROR] [2023-07-17T00:50:14,925] [main] [SpringApplication] Application run failed 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
 -------------------------------------------------------------------------------------------------
 SQL State  : 28P01
@@ -96,7 +94,7 @@ Message    : FATAL: password authentication failed for user "gubee"
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
-	at br.com.gubee.interview.core.Application.main(Application.java:12) [classes/:?]
+	at br.com.gubee.interview.core.Application.main(Application.java:13) [classes/:?]
 Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
 -------------------------------------------------------------------------------------------------
 SQL State  : 28P01
@@ -134,29 +132,27 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
 	... 18 more
-[INFO ] [2023-07-12T18:29:39,397] [background-preinit] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-12T18:29:39,418] [main] [Application] Starting Application using Java 17.0.7 with PID 4364 (D:\Documentos\testes\teste-pleno-gubee\core\target\classes started by elielton in D:\Documentos\testes\teste-pleno-gubee) 
-[INFO ] [2023-07-12T18:29:39,421] [main] [Application] No active profile set, falling back to 1 default profile: "default" 
-[INFO ] [2023-07-12T18:29:39,780] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
-[INFO ] [2023-07-12T18:29:39,780] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JDBC repositories in DEFAULT mode. 
-[INFO ] [2023-07-12T18:29:39,799] [main] [RepositoryConfigurationExtensionSupport] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface br.com.gubee.interview.core.repository.HeroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table. 
-[INFO ] [2023-07-12T18:29:39,800] [main] [RepositoryConfigurationExtensionSupport] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface br.com.gubee.interview.core.repository.PowerStatsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table. 
-[INFO ] [2023-07-12T18:29:39,801] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces. 
-[INFO ] [2023-07-12T18:29:39,805] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
-[INFO ] [2023-07-12T18:29:39,806] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
-[INFO ] [2023-07-12T18:29:39,822] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces. 
-[INFO ] [2023-07-12T18:29:40,120] [main] [TomcatWebServer] Tomcat initialized with port(s): 8080 (http) 
-[INFO ] [2023-07-12T18:29:40,125] [main] [Http11NioProtocol] The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c] 
-[INFO ] [2023-07-12T18:29:40,126] [main] [Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"] 
-[INFO ] [2023-07-12T18:29:40,126] [main] [StandardService] Starting service [Tomcat] 
-[INFO ] [2023-07-12T18:29:40,127] [main] [StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.8] 
-[INFO ] [2023-07-12T18:29:40,187] [main] [[/]] Initializing Spring embedded WebApplicationContext 
-[INFO ] [2023-07-12T18:29:40,187] [main] [ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 741 ms 
-[INFO ] [2023-07-12T18:29:40,288] [main] [VersionPrinter] Flyway Community Edition 9.16.3 by Redgate 
-[INFO ] [2023-07-12T18:29:40,289] [main] [VersionPrinter] See release notes here: https://rd.gt/416ObMi 
-[INFO ] [2023-07-12T18:29:40,289] [main] [VersionPrinter]  
-[INFO ] [2023-07-12T18:29:40,299] [main] [HikariDataSource] HikariPool-1 - Starting... 
-[ERROR] [2023-07-12T18:29:41,406] [main] [HikariPool] HikariPool-1 - Exception during pool initialization. 
+[INFO ] [2023-07-17T02:35:38,182] [background-preinit] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-17T02:35:38,206] [main] [Application] Starting Application using Java 17.0.7 with PID 9528 (D:\Documentos\testes\teste-pleno-gubee\core\target\classes started by elielton in D:\Documentos\testes\teste-pleno-gubee) 
+[INFO ] [2023-07-17T02:35:38,209] [main] [Application] No active profile set, falling back to 1 default profile: "default" 
+[INFO ] [2023-07-17T02:35:38,615] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
+[INFO ] [2023-07-17T02:35:38,615] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JDBC repositories in DEFAULT mode. 
+[INFO ] [2023-07-17T02:35:38,629] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces. 
+[INFO ] [2023-07-17T02:35:38,634] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
+[INFO ] [2023-07-17T02:35:38,635] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO ] [2023-07-17T02:35:38,638] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces. 
+[INFO ] [2023-07-17T02:35:38,926] [main] [TomcatWebServer] Tomcat initialized with port(s): 8080 (http) 
+[INFO ] [2023-07-17T02:35:38,932] [main] [Http11NioProtocol] The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c] 
+[INFO ] [2023-07-17T02:35:38,933] [main] [Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO ] [2023-07-17T02:35:38,934] [main] [StandardService] Starting service [Tomcat] 
+[INFO ] [2023-07-17T02:35:38,934] [main] [StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.8] 
+[INFO ] [2023-07-17T02:35:38,995] [main] [[/]] Initializing Spring embedded WebApplicationContext 
+[INFO ] [2023-07-17T02:35:38,996] [main] [ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 759 ms 
+[INFO ] [2023-07-17T02:35:39,090] [main] [VersionPrinter] Flyway Community Edition 9.16.3 by Redgate 
+[INFO ] [2023-07-17T02:35:39,090] [main] [VersionPrinter] See release notes here: https://rd.gt/416ObMi 
+[INFO ] [2023-07-17T02:35:39,090] [main] [VersionPrinter]  
+[INFO ] [2023-07-17T02:35:39,103] [main] [HikariDataSource] HikariPool-1 - Starting... 
+[ERROR] [2023-07-17T02:35:40,215] [main] [HikariPool] HikariPool-1 - Exception during pool initialization. 
 org.postgresql.util.PSQLException: FATAL: password authentication failed for user "gubee"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:693) ~[postgresql-42.6.0.jar:42.6.0]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:203) ~[postgresql-42.6.0.jar:42.6.0]
@@ -196,18 +192,18 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
-	at br.com.gubee.interview.core.Application.main(Application.java:12) [classes/:?]
-[WARN ] [2023-07-12T18:29:41,465] [main] [AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
+	at br.com.gubee.interview.core.Application.main(Application.java:13) [classes/:?]
+[WARN ] [2023-07-17T02:35:40,276] [main] [AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
 -------------------------------------------------------------------------------------------------
 SQL State  : 28P01
 Error Code : 0
 Message    : FATAL: password authentication failed for user "gubee"
  
-[INFO ] [2023-07-12T18:29:41,467] [main] [StandardService] Stopping service [Tomcat] 
-[INFO ] [2023-07-12T18:29:41,474] [main] [ConditionEvaluationReportLogger] 
+[INFO ] [2023-07-17T02:35:40,279] [main] [StandardService] Stopping service [Tomcat] 
+[INFO ] [2023-07-17T02:35:40,287] [main] [ConditionEvaluationReportLogger] 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
-[ERROR] [2023-07-12T18:29:41,483] [main] [SpringApplication] Application run failed 
+[ERROR] [2023-07-17T02:35:40,296] [main] [SpringApplication] Application run failed 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
 -------------------------------------------------------------------------------------------------
 SQL State  : 28P01
@@ -232,7 +228,7 @@ Message    : FATAL: password authentication failed for user "gubee"
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
-	at br.com.gubee.interview.core.Application.main(Application.java:12) [classes/:?]
+	at br.com.gubee.interview.core.Application.main(Application.java:13) [classes/:?]
 Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: FATAL: password authentication failed for user "gubee"
 -------------------------------------------------------------------------------------------------
 SQL State  : 28P01
@@ -265,233 +261,6 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48) ~[flyway-core-9.16.3.jar:?]
 	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74) ~[flyway-core-9.16.3.jar:?]
 	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.Flyway.migrate(Flyway.java:140) ~[flyway-core-9.16.3.jar:?]
-	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.1.0.jar:3.1.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
-	... 18 more
-[INFO ] [2023-07-12T18:29:50,916] [background-preinit] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-12T18:29:50,940] [main] [Application] Starting Application using Java 17.0.7 with PID 2744 (D:\Documentos\testes\teste-pleno-gubee\core\target\classes started by elielton in D:\Documentos\testes\teste-pleno-gubee) 
-[INFO ] [2023-07-12T18:29:50,942] [main] [Application] No active profile set, falling back to 1 default profile: "default" 
-[INFO ] [2023-07-12T18:29:51,293] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
-[INFO ] [2023-07-12T18:29:51,294] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JDBC repositories in DEFAULT mode. 
-[INFO ] [2023-07-12T18:29:51,312] [main] [RepositoryConfigurationExtensionSupport] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface br.com.gubee.interview.core.repository.HeroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table. 
-[INFO ] [2023-07-12T18:29:51,314] [main] [RepositoryConfigurationExtensionSupport] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface br.com.gubee.interview.core.repository.PowerStatsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table. 
-[INFO ] [2023-07-12T18:29:51,314] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces. 
-[INFO ] [2023-07-12T18:29:51,319] [main] [RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode 
-[INFO ] [2023-07-12T18:29:51,320] [main] [RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
-[INFO ] [2023-07-12T18:29:51,336] [main] [RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces. 
-[INFO ] [2023-07-12T18:29:51,641] [main] [TomcatWebServer] Tomcat initialized with port(s): 8080 (http) 
-[INFO ] [2023-07-12T18:29:51,647] [main] [Http11NioProtocol] The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c] 
-[INFO ] [2023-07-12T18:29:51,648] [main] [Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"] 
-[INFO ] [2023-07-12T18:29:51,648] [main] [StandardService] Starting service [Tomcat] 
-[INFO ] [2023-07-12T18:29:51,649] [main] [StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.8] 
-[INFO ] [2023-07-12T18:29:51,708] [main] [[/]] Initializing Spring embedded WebApplicationContext 
-[INFO ] [2023-07-12T18:29:51,709] [main] [ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 742 ms 
-[INFO ] [2023-07-12T18:29:51,804] [main] [VersionPrinter] Flyway Community Edition 9.16.3 by Redgate 
-[INFO ] [2023-07-12T18:29:51,804] [main] [VersionPrinter] See release notes here: https://rd.gt/416ObMi 
-[INFO ] [2023-07-12T18:29:51,805] [main] [VersionPrinter]  
-[INFO ] [2023-07-12T18:29:51,815] [main] [HikariDataSource] HikariPool-1 - Starting... 
-[INFO ] [2023-07-12T18:29:51,969] [main] [HikariPool] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@402b4f81 
-[INFO ] [2023-07-12T18:29:51,970] [main] [HikariDataSource] HikariPool-1 - Start completed. 
-[INFO ] [2023-07-12T18:29:51,987] [main] [BaseDatabaseType] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 15.1) 
-[INFO ] [2023-07-12T18:29:52,045] [main] [DbValidate] Successfully validated 3 migrations (execution time 00:00.032s) 
-[INFO ] [2023-07-12T18:29:52,093] [main] [DbMigrate] Current version of schema "interview_service": null 
-[INFO ] [2023-07-12T18:29:52,102] [main] [DbMigrate] Migrating schema "interview_service" to version "1.0 - power stats ddl" 
-[ERROR] [2023-07-12T18:29:52,128] [main] [DbMigrate] Migration of schema "interview_service" to version "1.0 - power stats ddl" failed! Changes successfully rolled back. 
-[WARN ] [2023-07-12T18:29:52,177] [main] [AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Migration V1.0__power_stats_ddl.sql failed
-------------------------------------------
-SQL State  : 42883
-Error Code : 0
-Message    : ERROR: function uuid_generate_v4() does not exist
-  Dica: No function matches the given name and argument types. You might need to add explicit type casts.
-  Posição: 81
-Location   : db/migration/V1.0__power_stats_ddl.sql (D:\Documentos\testes\teste-pleno-gubee\core\target\classes\db\migration\V1.0__power_stats_ddl.sql)
-Line       : 1
-Statement  : CREATE TABLE power_stats
-(
-    id           UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
-    strength     SMALLINT         NOT NULL,
-    agility      SMALLINT         NOT NULL,
-    dexterity    SMALLINT         NOT NULL,
-    intelligence SMALLINT         NOT NULL,
-    created_at   TIMESTAMPTZ      NOT NULL DEFAULT now(),
-    updated_at   TIMESTAMPTZ      NOT NULL DEFAULT now()
-)
- 
-[INFO ] [2023-07-12T18:29:52,178] [main] [HikariDataSource] HikariPool-1 - Shutdown initiated... 
-[INFO ] [2023-07-12T18:29:52,231] [main] [HikariDataSource] HikariPool-1 - Shutdown completed. 
-[INFO ] [2023-07-12T18:29:52,234] [main] [StandardService] Stopping service [Tomcat] 
-[INFO ] [2023-07-12T18:29:52,247] [main] [ConditionEvaluationReportLogger] 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
-[ERROR] [2023-07-12T18:29:52,258] [main] [SpringApplication] Application run failed 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Migration V1.0__power_stats_ddl.sql failed
-------------------------------------------
-SQL State  : 42883
-Error Code : 0
-Message    : ERROR: function uuid_generate_v4() does not exist
-  Dica: No function matches the given name and argument types. You might need to add explicit type casts.
-  Posição: 81
-Location   : db/migration/V1.0__power_stats_ddl.sql (D:\Documentos\testes\teste-pleno-gubee\core\target\classes\db\migration\V1.0__power_stats_ddl.sql)
-Line       : 1
-Statement  : CREATE TABLE power_stats
-(
-    id           UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
-    strength     SMALLINT         NOT NULL,
-    agility      SMALLINT         NOT NULL,
-    dexterity    SMALLINT         NOT NULL,
-    intelligence SMALLINT         NOT NULL,
-    created_at   TIMESTAMPTZ      NOT NULL DEFAULT now(),
-    updated_at   TIMESTAMPTZ      NOT NULL DEFAULT now()
-)
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156) ~[spring-context-6.0.9.jar:6.0.9]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.9.jar:6.0.9]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) [spring-boot-3.1.0.jar:3.1.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) [spring-boot-3.1.0.jar:3.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-3.1.0.jar:3.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) [spring-boot-3.1.0.jar:3.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) [spring-boot-3.1.0.jar:3.1.0]
-	at br.com.gubee.interview.core.Application.main(Application.java:12) [classes/:?]
-Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: Migration V1.0__power_stats_ddl.sql failed
-------------------------------------------
-SQL State  : 42883
-Error Code : 0
-Message    : ERROR: function uuid_generate_v4() does not exist
-  Dica: No function matches the given name and argument types. You might need to add explicit type casts.
-  Posição: 81
-Location   : db/migration/V1.0__power_stats_ddl.sql (D:\Documentos\testes\teste-pleno-gubee\core\target\classes\db\migration\V1.0__power_stats_ddl.sql)
-Line       : 1
-Statement  : CREATE TABLE power_stats
-(
-    id           UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
-    strength     SMALLINT         NOT NULL,
-    agility      SMALLINT         NOT NULL,
-    dexterity    SMALLINT         NOT NULL,
-    intelligence SMALLINT         NOT NULL,
-    created_at   TIMESTAMPTZ      NOT NULL DEFAULT now(),
-    updated_at   TIMESTAMPTZ      NOT NULL DEFAULT now()
-)
-
-	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:384) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:274) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:273) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:246) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:141) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:141) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:98) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:196) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.Flyway.migrate(Flyway.java:140) ~[flyway-core-9.16.3.jar:?]
-	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.1.0.jar:3.1.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
-	... 18 more
-Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: Migration V1.0__power_stats_ddl.sql failed
-------------------------------------------
-SQL State  : 42883
-Error Code : 0
-Message    : ERROR: function uuid_generate_v4() does not exist
-  Dica: No function matches the given name and argument types. You might need to add explicit type casts.
-  Posição: 81
-Location   : db/migration/V1.0__power_stats_ddl.sql (D:\Documentos\testes\teste-pleno-gubee\core\target\classes\db\migration\V1.0__power_stats_ddl.sql)
-Line       : 1
-Statement  : CREATE TABLE power_stats
-(
-    id           UUID PRIMARY KEY NOT NULL DEFAULT uuid_generate_v4(),
-    strength     SMALLINT         NOT NULL,
-    agility      SMALLINT         NOT NULL,
-    dexterity    SMALLINT         NOT NULL,
-    intelligence SMALLINT         NOT NULL,
-    created_at   TIMESTAMPTZ      NOT NULL DEFAULT now(),
-    updated_at   TIMESTAMPTZ      NOT NULL DEFAULT now()
-)
-
-	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:275) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:222) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:376) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:274) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:273) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:246) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:141) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:141) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:98) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:196) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.Flyway.migrate(Flyway.java:140) ~[flyway-core-9.16.3.jar:?]
-	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.1.0.jar:3.1.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
-	... 18 more
-Caused by: org.postgresql.util.PSQLException: ERROR: function uuid_generate_v4() does not exist
-  Dica: No function matches the given name and argument types. You might need to add explicit type casts.
-  Posição: 81
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297) ~[postgresql-42.6.0.jar:42.6.0]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292) ~[postgresql-42.6.0.jar:42.6.0]
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:?]
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:?]
-	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:201) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.sqlscript.ParsedSqlStatement.execute(ParsedSqlStatement.java:95) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:210) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:126) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeOnce(SqlMigrationExecutor.java:68) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.lambda$execute$0(SqlMigrationExecutor.java:57) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.DefaultExecutionStrategy.execute(DefaultExecutionStrategy.java:27) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:376) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.lambda$applyMigrations$1(DbMigrate.java:274) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:273) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:246) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.lambda$migrateAll$0(DbMigrate.java:141) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:73) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.lambda$execute$0(PostgreSQLAdvisoryLockTemplate.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate.execute(PostgreSQLAdvisoryLockTemplate.java:56) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection.lock(PostgreSQLConnection.java:96) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:144) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:141) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:98) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:188) ~[flyway-core-9.16.3.jar:?]
-	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:196) ~[flyway-core-9.16.3.jar:?]
 	at org.flywaydb.core.Flyway.migrate(Flyway.java:140) ~[flyway-core-9.16.3.jar:?]
 	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.1.0.jar:3.1.0]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]

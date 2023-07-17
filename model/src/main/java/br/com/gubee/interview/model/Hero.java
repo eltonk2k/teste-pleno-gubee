@@ -8,15 +8,19 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 
+
+@NoArgsConstructor
+@Getter
+@Setter
 public class Hero implements Serializable {
 
 
     private UUID id;
     private String name;
     private String race;
-    private Boolean enabled = true;
-    private LocalDateTime created_at;
-    private LocalDateTime updated_at;
+    private Boolean enabled;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
     private PowerStats powerStats;
 
 

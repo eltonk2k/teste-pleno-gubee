@@ -1,7 +1,8 @@
-package br.com.gubee.interview.core.services.imp;
+package br.com.gubee.interview.core.features.services.imp;
 
-import br.com.gubee.interview.core.repository.HeroRepository;
-import br.com.gubee.interview.core.services.HeroService;
+import br.com.gubee.interview.core.features.repository.HeroRepository;
+import br.com.gubee.interview.core.features.repository.imp.HeroRepositoryImpl;
+import br.com.gubee.interview.core.features.services.HeroService;
 import br.com.gubee.interview.dto.HeroDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,11 +15,17 @@ public class HeroServiceImpl implements HeroService {
 
 
     @Autowired
-    private HeroRepository heroRepository;
+    private HeroRepositoryImpl heroRepository;
 
 
     @Override
     public HeroDTO findById(UUID id) {
+
+        return null;
+    }
+
+    @Override
+    public HeroDTO findByName(String name) {
         return null;
     }
 
@@ -33,7 +40,7 @@ public class HeroServiceImpl implements HeroService {
     }
 
     @Override
-    public void delete(UUID id) {
+    public void deleteById(UUID id) {
 
     }
 }
