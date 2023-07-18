@@ -38,13 +38,13 @@ public class HeroRepositoryImpl implements HeroRepository {
     @Override
     public UUID findPowerStatsById(UUID id) {
         return jdbcTemplate.queryForObject("SELECT h.power_stats_id " +
-                "FROM hero h INNER JOIN power_stats p ON h.power_stats_id = p.id WHERE h.id = ?", new HeroDTOMapper(), id).getId();
+                "FROM hero h INNER JOIN power_stats p ON h.power_stats_id = p.id WHERE h.id = ?", new HeroDTOMapper(), UUID.class).getId();
     }
 
     @Override
-    public int save(HeroDTO hero, UUID PowerStatsId) {
+    public int save(HeroDTO hero, UUID powerStatsId) {
         return jdbcTemplate.update("INSERT INTO interview_service.hero (id, name, race, power_stats_id) " +
-                        "VALUES (interview_service.uuid_generate_v4(), ?, ?, ?)", hero.getName(), hero.getRace(), PowerStatsId);
+                        "VALUES (interview_service.uuid_generate_v4(), ?, ?, ?)", hero.getName(), hero.getRace(), powerStatsId);
     }
 
     @Override

@@ -11,17 +11,22 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public class PowerStatsImpl implements PowerStatsRepository {
+public class PowerStatsRepositoryImpl implements PowerStatsRepository {
 
 
     private final JdbcTemplate jdbcTemplate;
 
 
     @Autowired
-    public PowerStatsImpl(JdbcTemplate jdbcTemplate) {
+    public PowerStatsRepositoryImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
+
+    @Override
+    public UUID findById(UUID id) {
+        return jdbcTemplate.queryForObject("SELECT * FROM power_stats WHERE id = ?", UUID.class);
+    }
 
     @Override
     public int save(PowerStatsDTO powerStatsDTO) {

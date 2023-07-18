@@ -7,6 +7,9 @@ import java.util.UUID;
 
 public interface PowerStatsRepository {
 
+
+    UUID findById(UUID id);
+
     int save(PowerStatsDTO powerStatsDTO);
 
     int update(UUID id, HeroDTO heroDTO);
