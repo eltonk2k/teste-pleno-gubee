@@ -1,6 +1,6 @@
 package br.com.gubee.interview.model;
 
-import jakarta.persistence.*;
+
 import lombok.*;
 
 import java.time.LocalDateTime;

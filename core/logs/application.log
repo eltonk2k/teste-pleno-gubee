@@ -1,54 +1,68 @@
-[INFO ] [2023-07-14T11:10:45,672] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:10:46,812] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:10:47,063] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:10:47,063] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:10:47,067] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
-[WARN ] [2023-07-14T11:10:47,129] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
-[INFO ] [2023-07-14T11:13:57,085] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:13:58,116] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:13:58,340] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:13:58,340] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:13:58,342] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
-[WARN ] [2023-07-14T11:13:58,431] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 1] 
-[INFO ] [2023-07-14T11:15:38,254] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:15:39,260] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:15:39,485] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:15:39,485] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:15:39,489] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
-[WARN ] [2023-07-14T11:15:39,568] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 1] 
-[INFO ] [2023-07-14T11:23:17,851] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:23:18,862] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:23:19,095] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:23:19,095] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:23:19,098] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
-[WARN ] [2023-07-14T11:23:19,168] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 4095] 
-[INFO ] [2023-07-14T11:23:38,816] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:23:39,829] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:23:40,040] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:23:40,040] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:23:40,045] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
-[WARN ] [2023-07-14T11:23:40,119] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 4095] 
-[INFO ] [2023-07-14T11:24:37,904] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:24:38,919] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:24:39,134] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:24:39,134] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:24:39,137] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
-[WARN ] [2023-07-14T11:24:39,206] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 4095] 
-[INFO ] [2023-07-14T11:25:31,998] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:25:32,991] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:25:33,214] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:25:33,214] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:25:33,217] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
-[WARN ] [2023-07-14T11:25:33,293] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 0x0000000000000FFF] 
-[INFO ] [2023-07-14T11:25:59,083] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:26:00,104] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:26:00,319] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:26:00,319] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:26:00,322] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
-[WARN ] [2023-07-14T11:26:00,399] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 1] 
-[INFO ] [2023-07-14T11:27:26,188] [main] [AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.gubee.interview.core.features.hero.HeroControllerTest]: HeroControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-[INFO ] [2023-07-14T11:27:27,189] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
-[INFO ] [2023-07-14T11:27:27,411] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
-[INFO ] [2023-07-14T11:27:27,411] [main] [TestDispatcherServlet] Initializing Servlet '' 
-[INFO ] [2023-07-14T11:27:27,414] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
-[WARN ] [2023-07-14T11:27:27,491] [main] [DefaultHandlerExceptionResolver] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: 1}] 
+[INFO ] [2023-07-18T10:10:33,988] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:10:34,306] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:10:34,307] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:10:34,311] [main] [TestDispatcherServlet] Completed initialization in 3 ms 
+[INFO ] [2023-07-18T10:16:46,801] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:16:47,085] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:16:47,086] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:16:47,090] [main] [TestDispatcherServlet] Completed initialization in 4 ms 
+[INFO ] [2023-07-18T10:19:15,961] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:19:16,250] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:19:16,250] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:19:16,254] [main] [TestDispatcherServlet] Completed initialization in 3 ms 
+[INFO ] [2023-07-18T10:21:02,058] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:21:02,342] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:21:02,342] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:21:02,345] [main] [TestDispatcherServlet] Completed initialization in 1 ms 
+[INFO ] [2023-07-18T10:22:08,416] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:22:08,715] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:22:08,716] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:22:08,719] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T10:24:53,897] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:24:54,161] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:24:54,166] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:24:54,170] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T10:43:00,055] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:43:00,349] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:43:00,350] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:43:00,354] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T10:47:03,789] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:47:04,071] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:47:04,071] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:47:04,075] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T10:49:31,340] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:49:31,655] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:49:31,655] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:49:31,661] [main] [TestDispatcherServlet] Completed initialization in 3 ms 
+[INFO ] [2023-07-18T10:50:12,286] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:50:12,593] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:50:12,593] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:50:12,597] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T10:50:21,160] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T10:50:21,473] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T10:50:21,474] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T10:50:21,477] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T11:56:33,930] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T11:56:34,240] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T11:56:34,240] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T11:56:34,244] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T11:56:40,397] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T11:56:40,697] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T11:56:40,697] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T11:56:40,702] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T11:56:46,747] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T11:56:47,267] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T11:56:47,268] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T11:56:47,272] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T11:56:58,790] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T11:56:59,078] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T11:56:59,133] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T11:56:59,138] [main] [TestDispatcherServlet] Completed initialization in 3 ms 
+[INFO ] [2023-07-18T11:57:06,840] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T11:57:07,160] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T11:57:07,160] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T11:57:07,163] [main] [TestDispatcherServlet] Completed initialization in 2 ms 
+[INFO ] [2023-07-18T11:57:13,260] [main] [Version] HV000001: Hibernate Validator 8.0.0.Final 
+[INFO ] [2023-07-18T11:57:13,580] [main] [MockServletContext] Initializing Spring TestDispatcherServlet '' 
+[INFO ] [2023-07-18T11:57:13,581] [main] [TestDispatcherServlet] Initializing Servlet '' 
+[INFO ] [2023-07-18T11:57:13,584] [main] [TestDispatcherServlet] Completed initialization in 1 ms 

@@ -1,22 +1,28 @@
 version: '3'
 services:
   app:
-    image: my-app-image
+    image: openjdk:17
+    container_name: spring-app
     ports:
       - 8080:8080
+    volumes:
+      - ./app:/app
+    command: >
+      sh -c "cd /app && ./mvnw spring-boot:run"
     depends_on:
       - db
     environment:
-      - DATABASE_HOST=db
-      - DATABASE_PORT=5432
-      - DATABASE_NAME=interview_service
-      - DATABASE_USER=gubee
-      - DATABASE_PASSWORD=gubee
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/interview_service
+      - SPRING_DATASOURCE_USERNAME=gubee
+      - SPRING_DATASOURCE_PASSWORD=gubee
 
   db:
-    image: postgres
+    image: postgres:latest
+    container_name: postgres-db
     ports:
       - 5432:5432
+    volumes:
+      - ./data:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=interview_service
       - POSTGRES_USER=gubee
