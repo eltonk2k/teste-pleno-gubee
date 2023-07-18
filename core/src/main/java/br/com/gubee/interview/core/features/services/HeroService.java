@@ -12,7 +12,7 @@ public interface HeroService {
 
     HeroDTO save(HeroDTO heroDTO);
 
-    void update(UUID id, HeroDTO heroDTO);
+    HeroDTO update(UUID id, HeroDTO heroDTO);
 
     void deleteById(UUID id);
 

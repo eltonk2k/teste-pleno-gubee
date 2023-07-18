@@ -1,12 +1,10 @@
 package br.com.gubee.interview.core.features.services.imp;
 
-import br.com.gubee.interview.core.features.repository.PowerStatsRepository;
 import br.com.gubee.interview.core.features.repository.imp.HeroRepositoryImpl;
 import br.com.gubee.interview.core.features.repository.imp.PowerStatsRepositoryImpl;
 import br.com.gubee.interview.core.features.services.HeroService;
 import br.com.gubee.interview.dto.HeroDTO;
 import br.com.gubee.interview.dto.PowerStatsDTO;
-import br.com.gubee.interview.model.Hero;
 import br.com.gubee.interview.model.PowerStats;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +20,7 @@ public class HeroServiceImpl implements HeroService {
     private HeroRepositoryImpl heroRepository;
 
     @Autowired
-    private PowerStatsRepository powerStatsRepository;
+    private PowerStatsRepositoryImpl powerStatsRepository;
 
 
 
@@ -50,7 +48,7 @@ public class HeroServiceImpl implements HeroService {
     }
 
     @Override
-    public void update(UUID id, HeroDTO heroDTO) {
+    public HeroDTO update(UUID id, HeroDTO heroDTO) {
 //        HeroDTO existingHero = heroRepository.findById(id);
 //        if (existingHero != null) {
 //            Hero updatedHero = convertToEntity(heroDTO);
@@ -66,6 +64,7 @@ public class HeroServiceImpl implements HeroService {
 
         }
 
+        return existingHero;
     }
 
     @Override
